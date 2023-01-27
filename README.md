@@ -16,9 +16,9 @@ Software:
 
 ## Hardware
 
-PCB is the same size of the original one (70x36 mm) with mounting holes placed on it, thus it is supposed to fit just fine inside the plastic housing. Power supply of the fan is +24V, 0.8A. The board has a MC34063DR switching voltage regulator that provide the necessary power (3v3, >500mA) for the wifi module.
+PCB is the same size of the original one (70x36 mm) with mounting holes placed on it, thus it is supposed to fit just fine inside the plastic housing. Power supply of the fan is +24V, 0.8A. The board has a MC34063DR switching voltage regulator that provides the necessary power (+3v3, >500mA) for the wifi module.
 
-MCU programming: the board supports only UART programming via TX,RX pin headers, thus USB to TTL converter is necessary to upload firmware. It is compatible only with 5V supply so make sure to provide enough voltage during flashing
+MCU programming: the board supports only UART programming via TX, RX pin headers (no USB interface), thus USB to TTL converter is necessary to upload firmware. It is recommended to supply the module via VIN, GND pins also when programming. It is compatible with +24V and +5V supply (but +3V3 supply is not guaranteed to be enough as you may experience some voltage drop via the buck converter so make sure to provide enough voltage during flashing)
 
 
 ## Contribution
