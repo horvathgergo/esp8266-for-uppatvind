@@ -4,9 +4,9 @@ Custom PCB based on ESP12-F (ESP8266) wifi module that serves as a smart control
 Current status of the development: **Prototype is ready to order**
 
 Hardware: 
-* [x] Schematic finished
-* [x] Components, layout finished
-* [x] 3D model finished
+* [x] Schematic
+* [x] Layout with components
+* [x] 3D model 
 * [ ] Testing (hasn't started yet)
 
 Software:
