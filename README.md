@@ -6,7 +6,7 @@ Repo established, project under development...
 
 
 
-## contribution
+## Contribution
 
 If you find this project useful please support further development by using the button below:
 
