@@ -1,4 +1,6 @@
-# ESP8266-based custom PCB for Uppatvind Air Purifier
+# ESP8266 for Uppatvind
+Custom PCB based on ESP12-F (ESP8266) wifi module serves as a smart controller for IKEA Uppatvind Air Purifiers
+
 Repo established, project under development...
 
 
