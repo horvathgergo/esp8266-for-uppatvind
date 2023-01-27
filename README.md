@@ -1,10 +1,11 @@
-# ESP8266 for Uppatvind
-Custom PCB based on ESP12-F (ESP8266) wifi module serves as a smart controller for IKEA Uppatvind Air Purifiers
+# Smart Air Purifier (Project Uppatvind)
+Custom PCB based on ESP12-F (ESP8266) wifi module serves as a smart controller for IKEA Uppatvind Air Purifiers. It's embedded microcontroller enables you to incorporate your device to home automation systems (preferably to Home Assistant) or control it via custom mobile applications as it enjoys support from wide variety of firmwares (MicroPython, ESPHome, Arduino etc).
 
 Repo established, project under development...
 
 
 ## Hardware
+
 
 
 
