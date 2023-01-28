@@ -1,6 +1,0 @@
-Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-D2,LED,LED_0603_1608Metric,-59.5,-18,90,bottom
-D3,LED,LED_0603_1608Metric,-4,-18,-90,bottom
-R1,120,R_0402_1005Metric,-58.97,-15.72,0,bottom
-R2,270,R_0402_1005Metric,-4.5,-20.34,180,bottom
-SW1,SW_Push,SW_Push_1P1T_NO_6x6mm_H5mm,-42.5,-18,0,bottom
