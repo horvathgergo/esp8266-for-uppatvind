@@ -9,11 +9,10 @@ Hardware:
 * [x] Schematic
 * [x] Layout with components
 * [x] 3D model 
-* [ ] Testing (hasn't started yet)
+* [ ] Testing
 
 Software:
-* [ ] ESPHome
-* [ ] MicroPython
+* [X] MicroPython
 
 
 ## Hardware
@@ -27,6 +26,12 @@ The Purifier has a 4-pin PWM fan with +24VDC, 0.5A. The pins are power, ground, 
 MCU programming: the board supports only UART programming via TX, RX pin headers (no USB interface), thus USB to TTL converter is necessary to upload firmware. It is recommended to supply the module via VIN, GND pins when programming. It is compatible with +5-24V supply (but +3V3 supply is not guaranteed to work as you may experience some voltage drop via the buck converter so make sure to provide enough voltage during flashing). Boot button is located on the right side of the wifi module.
 
 BOM: Most of the chosen components are considered to be basic/standard parts at LCSC, however there are some extended components on the list (two large cap, inductor, esp, jst connectors and uart pin headers, tactile switch).
+
+## Software
+
+The software for Uppatvind has been developed in Micropython. It enables the device to be controlled via mqtt while exploits Home Assistant mqtt autodiscovery features that provides with a smooth (almost zero config) setup process. 
+
+More detailed description is available in this repo: https://github.com/horvathgergo/uPurifier
 
 ## Contribution
 
