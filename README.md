@@ -17,7 +17,7 @@ Software:
 
 ## Hardware
 
-<img src="https://user-images.githubusercontent.com/44551566/215201540-7497b639-17e2-411a-a9b8-c49daa4bcfe0.png" width="700" height="400">
+<img src="https://user-images.githubusercontent.com/44551566/227743230-bfe3b7a5-8919-44fc-974f-6e5c604d3f0f.png" width="700" height="400">
 
 PCB has the same size as the original one (70x36 mm) with mounting holes placed on it, thus it is supposed to fit just fine inside the plastic housing. Power supply of the fan is +24V, 0.8A. The board has a MC34063DR switching voltage regulator that provides the necessary power (+3v3, >500mA) for the wifi module. With the onboard physical button you can toggle the fan (turn on/off or event to change speed). Two blue LEDs are connected to the ESP pins so it can indicate changes in operating mode. Note: to avoid unnecessary costs and save some space on the board physical filter reset button is not incorporated in this version as this function can be easily achieved through software side. 
 
