@@ -3,14 +3,14 @@ Custom PCB based on ESP12-F (ESP8266) wifi module that serves as a smart control
 
 About IKEA Uppåtvind: It is the newest air purifier of the swedish company, compact and even smaller than its older borther, Förnuftig. It effectively cleans the indoor air from harmful PM2.5 particles and pollen for cheap (price approx. EUR30). The device is optimised for small bedrooms and has three fan speed. 
 
-Current status of the development: **Prototype is under testing**
+Current status of the development: **Finalized**
 
 Hardware: 
 * [x] Schematic
 * [x] Layout
 * [x] BOM, CPL
 * [x] 3D model 
-* [ ] Testing
+* [x] Testing
 
 Software:
 * [X] MicroPython
