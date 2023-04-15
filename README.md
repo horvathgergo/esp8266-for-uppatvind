@@ -22,7 +22,7 @@ Software:
 
 PCB has the same size as the original one (70x36 mm) with mounting holes placed on it, thus it is supposed to fit just fine inside the plastic housing. Power supply of the fan is +24V, 0.8A. The board has a MC34063DR switching voltage regulator that provides the necessary power (+3v3, >500mA) for the wifi module. With the onboard physical button you can toggle the fan (turn on/off or even change speed). Two blue LEDs are connected to the ESP pins so it can indicate changes in operating mode. Note: to avoid unnecessary costs and save some space on the board physical filter reset button is not incorporated in this version as this function can be easily achieved through software side. 
 
-The Purifier has a 4-pin PWM fan with +24VDC, 0.5A. The pins are POWER, GND, PWM, FG. PWM is a control pin for pulse width modulation and FG is the tacho pin for feedback purposes.
+The Purifier has a 4-pin PWM fan with +24VDC, 0.5A. The pins are POWER, GND, PWM, FG. PWM is a control pin for pulse width modulation and FG is the tacho pin for feedback purposes. The fan operates with a constant duty cycle of 50% and variable frequency between ca. 1-300Hz.
 
 ![475CF212-3C40-45C2-A7EA-1FA76863B281](https://user-images.githubusercontent.com/44551566/228315095-3f7911fd-b2ab-4ef3-aa52-a557d3de73f2.jpeg)
 
