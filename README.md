@@ -36,8 +36,3 @@ The software for Uppåtvind has been developed in Micropython. It enables the de
 
 More detailed description is available in this repo: https://github.com/horvathgergo/uPurifier
 
-## Contribution
-
-If you find this project useful please support its further development by using the button below:
-
-<a href="https://www.buymeacoffee.com/gergohorvath"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=gergohorvath&button_colour=FFDD00&font_colour=000000&font_family=Cookie&outline_colour=000000&coffee_colour=ffffff" /></a>
