@@ -1,3 +1,5 @@
+Newer version of the board based on an ESP32-C6 chip is available here: https://github.com/horvathgergo/esp32c6-for-uppatvind
+
 # Smart Air Purifier (Project Uppåtvind)
 Custom PCB based on ESP12-F (ESP8266) wifi module that serves as a smart controller for IKEA Uppåtvind Air Purifiers. It's embedded microcontroller enables you to incorporate your device to home automation systems (preferably to Home Assistant) or control it via custom mobile applications as it enjoys support from wide variety of firmwares. This project was implemented in two major phases. Hardware was designed with KiCAD, software is based on MicroPython.
 
